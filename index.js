@@ -85,5 +85,5 @@ console.log(products);
 const workbook = xlsx.utils.book_new();
 const worksheet = xlsx.utils.json_to_sheet(products);
 
-xlsx.utils.book_append_sheet(workbook, worksheet, 'Amazon Site Phone Data')
-xlsx.writeFile(workbook, 'products.xlsx')
+xlsx.utils.book_append_sheet(workbook, worksheet, 'Product List')
+xlsx.writeFile(workbook, 'Amazon Site Phone Data.xlsx')
